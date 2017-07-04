@@ -2,8 +2,6 @@ FROM debian:jessie
 MAINTAINER Ignacio Roncero Bazarra <ironcero@gmail.com>
 
 # Proxy configuracion
-ENV http_proxy http://10.116.8.100:8080
-ENV https_proxy http://10.116.8.100:8080
 ENV root_password root
 
 # Expose port
